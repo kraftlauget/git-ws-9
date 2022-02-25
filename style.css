@@ -59,19 +59,22 @@ main {
 }
 
 .bouncy {
-  font-size: 3rem;
-  border: 2px solid #ff00ff;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
   animation: bouncy 2s infinite linear;
   position: relative;
-  background-color: #ff00ff33;
-  user-select: none;
 }
 
 .bouncy:hover {
   background-color: #ff00ff99;
+}
+
+.pink-button {
+  border: 2px solid #ff00ff;
+  background-color: #ff00ff33;
+  color: white;
+  border-radius: 8px;
+  font-size: 3rem;
+  user-select: none;
+  cursor: pointer;
 }
 
 @keyframes bouncy {
